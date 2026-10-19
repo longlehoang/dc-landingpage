@@ -3,14 +3,14 @@
   "configurations": [
     {
       "name": "strapi",
-      "runtimeExecutable": "C:\\Users\\longle\\workspace\\dc-ladingpage\\scripts\\npm-portable.cmd",
+      "runtimeExecutable": "npm",
       "runtimeArgs": ["--prefix", "cms", "run", "develop"],
       "port": 1337,
       "url": "http://localhost:1337"
     },
     {
       "name": "next",
-      "runtimeExecutable": "C:\\Users\\longle\\workspace\\dc-ladingpage\\scripts\\npm-portable.cmd",
+      "runtimeExecutable": "npm",
       "runtimeArgs": ["--prefix", "frontend", "run", "dev"],
       "port": 3000
     }

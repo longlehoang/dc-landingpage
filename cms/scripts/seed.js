@@ -18,11 +18,36 @@ const data = require('./seed-data');
 
 const LOCALE = 'vi';
 const ASSET_DIR = path.join(__dirname, '..', '..', 'seed-assets');
+const CMS_ENV = path.join(__dirname, '..', '.env');
 const FRONTEND_ENV = path.join(__dirname, '..', '..', 'frontend', '.env.local');
 const FRONTEND_URL = process.env.FRONTEND_URL || 'http://localhost:3000';
 const TOKEN_NAME = 'nextjs-contact-form';
 const WEBHOOK_NAME = 'nextjs-revalidate';
 const force = process.argv.includes('--force');
+
+function ensureCmsEnv() {
+  if (fs.existsSync(CMS_ENV)) return;
+  const secret = () => crypto.randomBytes(16).toString('hex');
+  const defaults = {
+    HOST: '0.0.0.0',
+    PORT: '1337',
+    APP_KEYS: `${secret()},${secret()}`,
+    API_TOKEN_SALT: secret(),
+    ADMIN_JWT_SECRET: secret(),
+    TRANSFER_TOKEN_SALT: secret(),
+    JWT_SECRET: secret(),
+    ENCRYPTION_KEY: secret(),
+  };
+  const content =
+    Object.entries(defaults)
+      .map(([k, v]) => `${k}=${v}`)
+      .join('\n') + '\n';
+  fs.writeFileSync(CMS_ENV, content);
+  for (const [k, v] of Object.entries(defaults)) {
+    if (!process.env[k]) process.env[k] = v;
+  }
+  console.log(`  wrote ${path.relative(process.cwd(), CMS_ENV)}`);
+}
 
 async function ensureLocale(strapi) {
   const locales = strapi.plugin('i18n').service('locales');
@@ -118,6 +143,7 @@ function writeFrontendEnv(values) {
 }
 
 async function main() {
+  ensureCmsEnv();
   const app = await createStrapi(await compileStrapi()).load();
   app.log.level = 'error';
   try {

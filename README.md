@@ -11,21 +11,28 @@ scripts/      npm-portable.cmd – runs npm with the portable Node 22 (Node isn'
 
 ## Run it locally
 
-Node 22 LTS is required. On this machine it's a portable install in `%LOCALAPPDATA%\node-portable`. Prefix npm commands with `scripts\npm-portable.cmd`, or add that folder to your PATH.
+Node 20–26 is supported (`cms/package.json`).
 
 ```bash
-# 1. CMS: seed the content once, then start it (http://localhost:1337/admin)
-scripts/npm-portable.cmd --prefix cms run seed
-scripts/npm-portable.cmd --prefix cms run develop
+# 1. Install dependencies
+npm --prefix cms ci
+npm --prefix frontend ci
 
-# 2. Frontend (http://localhost:3000 → redirects to /vi)
-scripts/npm-portable.cmd --prefix frontend run dev
+# 2. CMS: seed the content once, then start it (http://localhost:1337/admin)
+npm --prefix cms run seed
+npm --prefix cms run develop
+
+# 3. Frontend (http://localhost:3000 → redirects to /vi)
+npm --prefix frontend run dev
 ```
+
+*(On Windows without a system-wide Node install, replace `npm` with `scripts\npm-portable.cmd`.)*
 
 The first time you open `http://localhost:1337/admin`, Strapi asks you to create the admin account.
 
 `npm run seed` is idempotent, and `npm run seed -- --force` overwrites the Vietnamese content. It does the following:
 
+- generates `cms/.env` with random secrets if it does not exist yet
 - makes **Vietnamese (`vi`)** the default locale
 - uploads the media from `seed-assets/` and publishes the **Global** and **Homepage** single types
 - gives the public role read access to Global and Homepage only

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_headline_parts",
+  "info": {
+    "displayName": "Headline part",
+    "icon": "feather",
+    "description": "A run of headline text with its own colour"
+  },
+  "options": {},
+  "attributes": {
+    "text": { "type": "string", "required": true },
+    "tone": {
+      "type": "enumeration",
+      "enum": ["light", "gold", "ivory"],
+      "default": "light",
+      "required": true
+    }
+  }
+}

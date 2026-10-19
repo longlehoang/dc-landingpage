@@ -1,0 +1,73 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage",
+    "description": "Landing page sections: hero, about, why us, contact"
+  },
+  "options": { "draftAndPublish": true },
+  "pluginOptions": { "i18n": { "localized": true } },
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "heroHeadline": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.headline-part",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "heroAnimation": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["files"],
+      "pluginOptions": { "i18n": { "localized": false } }
+    },
+    "aboutEyebrow": { "type": "string", "pluginOptions": { "i18n": { "localized": true } } },
+    "aboutTitle": { "type": "string", "required": true, "pluginOptions": { "i18n": { "localized": true } } },
+    "aboutImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"],
+      "pluginOptions": { "i18n": { "localized": false } }
+    },
+    "missionTitle": { "type": "string", "pluginOptions": { "i18n": { "localized": true } } },
+    "missionText": { "type": "text", "pluginOptions": { "i18n": { "localized": true } } },
+    "whyEyebrow": { "type": "string", "pluginOptions": { "i18n": { "localized": true } } },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.feature",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "contactEyebrow": { "type": "string", "pluginOptions": { "i18n": { "localized": true } } },
+    "contactTitle": { "type": "string", "required": true, "pluginOptions": { "i18n": { "localized": true } } },
+    "contactImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"],
+      "pluginOptions": { "i18n": { "localized": false } }
+    },
+    "contactNameLabel": { "type": "string", "pluginOptions": { "i18n": { "localized": true } } },
+    "contactEmailLabel": { "type": "string", "pluginOptions": { "i18n": { "localized": true } } },
+    "contactMessageLabel": { "type": "string", "pluginOptions": { "i18n": { "localized": true } } },
+    "contactOptInLabel": { "type": "text", "pluginOptions": { "i18n": { "localized": true } } },
+    "contactSubmitLabel": { "type": "string", "pluginOptions": { "i18n": { "localized": true } } },
+    "contactConsent": {
+      "type": "text",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "contactPolicyLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "contactSuccessMessage": { "type": "text", "pluginOptions": { "i18n": { "localized": true } } }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "kind": "singleType",
+  "collectionName": "globals",
+  "info": {
+    "singularName": "global",
+    "pluralName": "globals",
+    "displayName": "Global",
+    "description": "Header, floating quick-links card and footer shared by every page"
+  },
+  "options": { "draftAndPublish": true },
+  "pluginOptions": { "i18n": { "localized": true } },
+  "attributes": {
+    "siteName": { "type": "string", "required": true, "pluginOptions": { "i18n": { "localized": false } } },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"],
+      "pluginOptions": { "i18n": { "localized": false } }
+    },
+    "favicon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"],
+      "pluginOptions": { "i18n": { "localized": false } }
+    },
+    "contactButtonLabel": { "type": "string", "required": true, "pluginOptions": { "i18n": { "localized": true } } },
+    "journeyTitle": { "type": "string", "required": true, "pluginOptions": { "i18n": { "localized": true } } },
+    "journeyPrimaryLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "journeyOtherTitle": { "type": "string", "pluginOptions": { "i18n": { "localized": true } } },
+    "journeySecondaryLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "footerColumns": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link-group",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "legalLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link",
+      "pluginOptions": { "i18n": { "localized": true } }
+    },
+    "copyright": { "type": "string", "pluginOptions": { "i18n": { "localized": true } } }
+  }
+}

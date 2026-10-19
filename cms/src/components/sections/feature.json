@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_features",
+  "info": {
+    "displayName": "Feature",
+    "icon": "star",
+    "description": "A 'Why Dragon Capital' point with an icon"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "enumeration",
+      "enum": ["award", "assets", "flag"],
+      "default": "award",
+      "required": true
+    },
+    "text": { "type": "string", "required": true }
+  }
+}

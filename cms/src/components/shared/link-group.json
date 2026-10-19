@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_link_groups",
+  "info": {
+    "displayName": "Link group",
+    "icon": "bulletList",
+    "description": "A titled list of links, e.g. a footer column"
+  },
+  "options": {},
+  "attributes": {
+    "title": { "type": "string", "required": true },
+    "links": { "type": "component", "repeatable": true, "component": "shared.link" }
+  }
+}

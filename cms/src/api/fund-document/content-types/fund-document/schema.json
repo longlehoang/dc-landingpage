@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fund_documents",
+  "info": {
+    "singularName": "fund-document",
+    "pluralName": "fund-documents",
+    "displayName": "Fund document",
+    "description": "Regulatory / fund document (one row per file, both locales)"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "docId": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "fundCode": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "year": {
+      "type": "integer"
+    },
+    "titleVi": {
+      "type": "text"
+    },
+    "titleEn": {
+      "type": "text"
+    },
+    "date": {
+      "type": "date"
+    },
+    "fileUrl": {
+      "type": "text"
+    },
+    "inVi": {
+      "type": "boolean",
+      "default": false
+    },
+    "inEn": {
+      "type": "boolean",
+      "default": false
+    },
+    "displayOrder": {
+      "type": "integer"
+    }
+  }
+}

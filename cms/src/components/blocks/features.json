@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_blocks_featuress",
+  "info": {
+    "displayName": "Features",
+    "icon": "layout",
+    "description": "Icon + statement row (\"Why Dragon Capital\")"
+  },
+  "options": {},
+  "attributes": {
+    "anchor": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.icon-item"
+    }
+  }
+}

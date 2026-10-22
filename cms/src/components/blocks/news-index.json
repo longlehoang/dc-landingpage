@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_news_indexs",
+  "info": {
+    "displayName": "News index",
+    "icon": "layout",
+    "description": "Filterable list of every article"
+  },
+  "options": {},
+  "attributes": {
+    "anchor": {
+      "type": "string"
+    },
+    "allLabel": {
+      "type": "string",
+      "required": true
+    },
+    "emptyText": {
+      "type": "string"
+    }
+  }
+}

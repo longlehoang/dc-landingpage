@@ -57,3 +57,68 @@ export function CloseIcon() {
     </svg>
   )
 }
+
+export function ChevronDown() {
+  return (
+    <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true" className="icon-chevron">
+      <path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  )
+}
+
+export function ChevronLeft() {
+  return (
+    <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M15 6l-6 6 6 6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  )
+}
+
+export function ChevronRight() {
+  return (
+    <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  )
+}
+
+export function PlusMinus({ open }: { open: boolean }) {
+  return (
+    <svg width="28" height="28" viewBox="0 0 28 28" aria-hidden="true" className="icon-plusminus">
+      <circle cx="14" cy="14" r="13" fill="none" stroke="currentColor" strokeWidth="1.5" />
+      <path d={open ? 'M9 14h10' : 'M9 14h10M14 9v10'} stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+    </svg>
+  )
+}
+
+export function DownloadIcon() {
+  return (
+    <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M12 4v11m0 0l-4.5-4.5M12 15l4.5-4.5M5 19h14" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  )
+}
+
+export function TrendTriangle({ up }: { up: boolean }) {
+  return (
+    <svg width="12" height="10" viewBox="0 0 12 10" aria-hidden="true" className={up ? 'trend trend--up' : 'trend trend--down'}>
+      <path d={up ? 'M6 0l6 10H0z' : 'M6 10L0 0h12z'} fill="currentColor" />
+    </svg>
+  )
+}
+
+const socialPaths: Record<string, string> = {
+  linkedin: 'M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.22 8h4.56v14H.22V8zm7.4 0h4.37v1.92h.06c.61-1.15 2.1-2.36 4.32-2.36 4.62 0 5.47 3.04 5.47 7v7.44h-4.56v-6.6c0-1.57-.03-3.6-2.2-3.6-2.2 0-2.53 1.72-2.53 3.48V22H7.62V8z',
+  facebook: 'M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.25-1.5 1.55-1.5h1.65V4.45A22 22 0 0 0 14.3 4.3c-2.4 0-4.05 1.47-4.05 4.16v2.34H7.55V14h2.7v8h3.25z',
+  youtube: 'M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12a31 31 0 0 0 .5 4.8 3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1c.4-1.6.5-3.2.5-4.8s-.1-3.2-.5-4.8zM9.75 15.02V8.98L15.5 12l-5.75 3.02z',
+  x: 'M17.75 3h3.07l-6.7 7.66L22 21h-6.17l-4.83-6.32L5.47 21H2.4l7.17-8.2L2 3h6.33l4.37 5.78L17.75 3zm-1.08 16.17h1.7L7.4 4.74H5.58l11.09 14.43z',
+  zalo: 'M12 2C6.48 2 2 5.94 2 10.8c0 2.78 1.47 5.26 3.77 6.87-.12 1.05-.53 2.38-1.6 3.33 0 0 2.6.17 4.66-1.64.99.27 2.05.42 3.17.42 5.52 0 10-3.94 10-8.98S17.52 2 12 2zm-3.6 11.3H5.7v-.62l1.86-2.66H5.78v-.86h2.58v.6l-1.85 2.68H8.4v.86zm2.7 0h-.85v-4.14h.85v4.14zm3.97 0h-.8l-.06-.3a1.36 1.36 0 0 1-.92.36c-.9 0-1.56-.72-1.56-1.6 0-.9.66-1.6 1.56-1.6.36 0 .67.13.92.35l.06-.28h.8v3.07zm3.33-1.53c0 .9-.69 1.6-1.6 1.6-.9 0-1.6-.7-1.6-1.6 0-.9.7-1.6 1.6-1.6.91 0 1.6.7 1.6 1.6z',
+}
+
+export function SocialIcon({ network }: { network: string }) {
+  return (
+    <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">
+      <path d={socialPaths[network] ?? socialPaths.x} fill="currentColor" />
+    </svg>
+  )
+}

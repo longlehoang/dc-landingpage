@@ -10,7 +10,7 @@
     "text": { "type": "string", "required": true },
     "tone": {
       "type": "enumeration",
-      "enum": ["light", "gold", "ivory"],
+      "enum": ["light", "gold", "ivory", "green"],
       "default": "light",
       "required": true
     }

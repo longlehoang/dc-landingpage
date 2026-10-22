@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_nav_items",
+  "info": {
+    "displayName": "Nav item",
+    "icon": "link",
+    "description": "Header menu entry; groups make it a dropdown panel"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string"
+    },
+    "panelTitle": {
+      "type": "string"
+    },
+    "groups": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.nav-group"
+    }
+  }
+}

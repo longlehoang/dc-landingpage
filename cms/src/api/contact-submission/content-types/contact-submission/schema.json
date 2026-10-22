@@ -5,15 +5,18 @@
     "singularName": "contact-submission",
     "pluralName": "contact-submissions",
     "displayName": "Contact submission",
-    "description": "Leads from the 'Liên Hệ Ngay' form"
+    "description": "Leads from the 'Liên Hệ Ngay' forms on every sub-site"
   },
   "options": { "draftAndPublish": false },
   "pluginOptions": {},
   "attributes": {
     "name": { "type": "string", "required": true, "maxLength": 120 },
+    "company": { "type": "string", "maxLength": 160 },
     "email": { "type": "email", "required": true },
+    "phone": { "type": "string", "maxLength": 40 },
     "message": { "type": "text", "maxLength": 2000 },
     "optIn": { "type": "boolean", "default": false },
-    "sourceLocale": { "type": "string", "maxLength": 10 }
+    "sourceLocale": { "type": "string", "maxLength": 10 },
+    "sourcePage": { "type": "string", "maxLength": 200 }
   }
 }

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_contact_items",
+  "info": {
+    "displayName": "Contact item",
+    "icon": "link",
+    "description": "Label + value with optional link (mailto:/tel:)"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

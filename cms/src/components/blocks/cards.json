@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_blocks_cardss",
+  "info": {
+    "displayName": "Cards",
+    "icon": "layout",
+    "description": "A set of cards; the variant chooses the layout"
+  },
+  "options": {},
+  "attributes": {
+    "anchor": {
+      "type": "string"
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "grid",
+        "solutions",
+        "accordion",
+        "offices",
+        "logos",
+        "benefits",
+        "ctaBanner"
+      ],
+      "default": "grid"
+    },
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "titleHighlight": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.card"
+    }
+  }
+}

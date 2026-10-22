@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_blocks_team_members",
+  "info": {
+    "displayName": "Team member",
+    "icon": "layout",
+    "description": "Person with role and bio"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "role": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "bio": {
+      "type": "richtext"
+    },
+    "linkedinUrl": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_blocks_news_feeds",
+  "info": {
+    "displayName": "News feed",
+    "icon": "layout",
+    "description": "Latest articles"
+  },
+  "options": {},
+  "attributes": {
+    "anchor": {
+      "type": "string"
+    },
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "moreLabel": {
+      "type": "string"
+    },
+    "moreUrl": {
+      "type": "string"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "CAT1",
+        "CAT2",
+        "CAT3",
+        "CAT4",
+        "CAT5"
+      ]
+    },
+    "count": {
+      "type": "integer",
+      "default": 3
+    }
+  }
+}

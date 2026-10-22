@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_blocks_hero_slides",
+  "info": {
+    "displayName": "Hero slide",
+    "icon": "layout",
+    "description": "One slide of a carousel hero"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "paginationLabel": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    }
+  }
+}

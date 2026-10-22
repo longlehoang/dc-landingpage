@@ -4,6 +4,10 @@ import { notFound } from 'next/navigation'
 import { hasLocale, locales, ui } from '@/lib/i18n'
 import { getGlobal, getHomepage, mediaUrl } from '@/lib/strapi'
 import '../globals.css'
+import '../../styles/sites.css'
+import '../../styles/fund.css'
+import '../../styles/news.css'
+import '../../styles/documents.css'
 
 const manrope = Manrope({
   subsets: ['latin', 'vietnamese'],

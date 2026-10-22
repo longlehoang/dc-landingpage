@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_nav_groups",
+  "info": {
+    "displayName": "Nav group",
+    "icon": "link",
+    "description": "Column of links inside a dropdown panel"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    }
+  }
+}

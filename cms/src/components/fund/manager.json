@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_fund_managers",
+  "info": {
+    "displayName": "Fund manager",
+    "icon": "link",
+    "description": "Portfolio manager shown on a fund page"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "role": {
+      "type": "string"
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "stats": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.stat"
+    }
+  }
+}

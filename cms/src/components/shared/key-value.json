@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_key_values",
+  "info": {
+    "displayName": "Key value",
+    "icon": "link",
+    "description": "Label/value row, e.g. fund key facts"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "text"
+    }
+  }
+}

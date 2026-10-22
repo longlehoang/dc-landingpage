@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_blocks_timelines",
+  "info": {
+    "displayName": "Timeline",
+    "icon": "layout",
+    "description": "Milestones by year"
+  },
+  "options": {},
+  "attributes": {
+    "anchor": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.milestone"
+    }
+  }
+}

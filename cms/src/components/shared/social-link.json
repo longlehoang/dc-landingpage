@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_social_links",
+  "info": {
+    "displayName": "Social link",
+    "icon": "link",
+    "description": "Link to a social network profile"
+  },
+  "options": {},
+  "attributes": {
+    "network": {
+      "type": "enumeration",
+      "enum": [
+        "linkedin",
+        "facebook",
+        "youtube",
+        "zalo",
+        "x"
+      ],
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

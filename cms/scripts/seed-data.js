@@ -1,7 +1,7 @@
 'use strict';
 
 // Initial content, copied from https://www.dragoncapital.com.vn/vi/
-const BASE = 'https://www.dragoncapital.com.vn';
+// In-app links are stored without the locale prefix; the frontend adds /vi or /en.
 
 const files = {
   // Strapi blocks SVG uploads by default (XSS risk), so the logo is the site's 2x PNG.
@@ -17,30 +17,30 @@ const global = {
   contactButtonLabel: 'Liên hệ',
   journeyTitle: 'Bắt đầu hành trình của bạn:',
   journeyPrimaryLinks: [
-    { label: 'Khách hàng cá nhân', url: `${BASE}/individual/vi/` },
-    { label: 'Khách hàng tổ chức', url: `${BASE}/institution/vi/` },
+    { label: 'Khách hàng cá nhân', url: '/individual' },
+    { label: 'Khách hàng tổ chức', url: '/institution' },
   ],
   journeyOtherTitle: 'Các thông tin khác',
   journeySecondaryLinks: [
-    { label: 'Về Chúng Tôi', url: `${BASE}/individual/vi/about` },
-    { label: 'Công bố thông tin', url: `${BASE}/regulatory/vi/` },
+    { label: 'Về Chúng Tôi', url: '/individual/about' },
+    { label: 'Công bố thông tin', url: '/regulatory' },
   ],
   footerColumns: [
     {
       title: 'Khách hàng',
       links: [
-        { label: 'Tổ chức', url: `${BASE}/institution` },
-        { label: 'Cá nhân', url: `${BASE}/individual` },
+        { label: 'Tổ chức', url: '/institution' },
+        { label: 'Cá nhân', url: '/individual' },
       ],
     },
     {
       title: 'Hỗ trợ',
-      links: [{ label: 'Liên hệ', url: `${BASE}/contact` }],
+      links: [{ label: 'Liên hệ', url: '/contact' }],
     },
   ],
   legalLinks: [
-    { label: 'Điều khoản sử dụng', url: `${BASE}/terms` },
-    { label: 'Chính sách bảo mật', url: `${BASE}/policy` },
+    { label: 'Điều khoản sử dụng', url: '/terms' },
+    { label: 'Chính sách bảo mật', url: '/policy' },
   ],
   copyright: '©️ 2024 Dragon Capital',
 };
@@ -76,7 +76,7 @@ const homepage = {
   contactSubmitLabel: 'Đăng ký',
   contactConsent:
     'Bằng việc đăng ký, tôi xác nhận rằng những thông tin trên là dữ liệu cá nhân của tôi và Dragon Capital có thể sử dụng và xử lý dữ liệu đó cho các mục đích liên quan phù hợp với',
-  contactPolicyLink: { label: 'chính sách bảo mật', url: `${BASE}/policy` },
+  contactPolicyLink: { label: 'chính sách bảo mật', url: '/policy' },
   contactSuccessMessage: 'Cảm ơn bạn! Chúng tôi sẽ liên hệ với bạn trong thời gian sớm nhất.',
 };
 

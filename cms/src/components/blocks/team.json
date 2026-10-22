@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_blocks_teams",
+  "info": {
+    "displayName": "Team",
+    "icon": "layout",
+    "description": "Leadership grouped in tabs"
+  },
+  "options": {},
+  "attributes": {
+    "anchor": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "quote": {
+      "type": "text"
+    },
+    "groups": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.team-group"
+    }
+  }
+}

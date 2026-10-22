@@ -4,7 +4,7 @@ import { hasLocale, ui } from '@/lib/i18n'
 
 export interface ContactState {
   status: 'idle' | 'error' | 'sent'
-  fieldErrors?: { name?: string; email?: string }
+  fieldErrors?: { name?: string; company?: string; email?: string }
   message?: string
 }
 
@@ -17,15 +17,20 @@ export async function submitContact(_prev: ContactState, formData: FormData): Pr
   const t = ui[locale]
 
   // Honeypot: real users never fill this hidden field.
-  if (String(formData.get('company') ?? '')) return { status: 'sent' }
+  if (String(formData.get('website') ?? '')) return { status: 'sent' }
 
-  const name = String(formData.get('name') ?? '').trim().slice(0, 120)
-  const email = String(formData.get('email') ?? '').trim().slice(0, 254)
-  const message = String(formData.get('message') ?? '').trim().slice(0, 2000)
+  const field = (key: string, max: number) => String(formData.get(key) ?? '').trim().slice(0, max)
+  const name = field('name', 120)
+  const company = field('company', 160)
+  const email = field('email', 254)
+  const phone = field('phone', 40)
+  const message = field('message', 2000)
+  const sourcePage = field('sourcePage', 200)
   const optIn = formData.get('optIn') === 'on'
 
   const fieldErrors: ContactState['fieldErrors'] = {}
   if (!name) fieldErrors.name = t.nameRequired
+  if (formData.get('companyRequired') && !company) fieldErrors.company = t.companyRequired
   if (!EMAIL_RE.test(email)) fieldErrors.email = t.emailInvalid
   if (Object.keys(fieldErrors).length) return { status: 'error', fieldErrors }
 
@@ -39,7 +44,7 @@ export async function submitContact(_prev: ContactState, formData: FormData): Pr
     const res = await fetch(`${(process.env.STRAPI_URL ?? 'http://localhost:1337').replace(/\/$/, '')}/api/contact-submissions`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
-      body: JSON.stringify({ data: { name, email, message, optIn, sourceLocale: locale } }),
+      body: JSON.stringify({ data: { name, company, email, phone, message, optIn, sourceLocale: locale, sourcePage } }),
       cache: 'no-store',
     })
     if (!res.ok) {

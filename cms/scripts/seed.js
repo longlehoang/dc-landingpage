@@ -273,9 +273,21 @@ async function upsertSingleType(strapi, uid, content) {
   console.log(`  ${uid}: seeded`);
 }
 
-async function ensureApiToken(strapi) {
+function readFrontendEnv() {
+  if (!fs.existsSync(FRONTEND_ENV)) return {};
+  return Object.fromEntries(
+    fs.readFileSync(FRONTEND_ENV, 'utf8').split('\n').filter(l => l.includes('=')).map(l => [l.slice(0, l.indexOf('=')), l.slice(l.indexOf('=') + 1)])
+  );
+}
+
+/** Reuses the token already in frontend/.env.local when it still matches, so a running Next.js keeps working. */
+async function ensureApiToken(strapi, current) {
   const tokens = strapi.service('admin::api-token');
   const existing = await tokens.getByName(TOKEN_NAME);
+  if (existing && current) {
+    const row = await strapi.db.query('admin::api-token').findOne({ where: { id: existing.id }, select: ['accessKey'] });
+    if (row?.accessKey === tokens.hash(current)) return current;
+  }
   if (existing) {
     const { accessKey } = await tokens.regenerate(existing.id);
     return accessKey;
@@ -358,8 +370,9 @@ async function main() {
     console.log(`  done in ${((Date.now() - started) / 1000).toFixed(1)} s`);
 
     console.log('API token + revalidation webhook…');
-    const token = await ensureApiToken(app);
-    const secret = crypto.randomBytes(24).toString('hex');
+    const env = readFrontendEnv();
+    const token = await ensureApiToken(app, env.STRAPI_WRITE_TOKEN);
+    const secret = env.REVALIDATE_SECRET || crypto.randomBytes(24).toString('hex');
     await ensureWebhook(app, secret);
     writeFrontendEnv({
       STRAPI_URL: `http://localhost:${app.config.get('server.port', 1337)}`,

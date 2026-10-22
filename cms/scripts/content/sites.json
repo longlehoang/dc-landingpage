@@ -1,0 +1,1260 @@
+[
+ {
+  "key": "individual",
+  "logo": {
+   "$media": "content/individual/site/brandLogo.png",
+   "alt": "Dragon Capital"
+  },
+  "footerLogo": {
+   "$media": "content/individual/site/footer-logo.png",
+   "alt": "Dragon Capital"
+  },
+  "appStoreUrl": "https://apps.apple.com/vn/app/dragonx-%C4%91%E1%BA%A7u-t%C6%B0-d%E1%BB%85-d%C3%A0ng/id1567847139",
+  "playStoreUrl": "https://play.google.com/store/apps/details?id=com.dcvfm.dragonx",
+  "appStoreBadge": {
+   "$media": "content/individual/site/badge-app-store.png",
+   "alt": "App Store"
+  },
+  "playStoreBadge": {
+   "$media": "content/individual/site/badge-google-play.png",
+   "alt": "Google Play"
+  },
+  "zaloUrl": "https://zalo.me/dragoncapitalvietnam",
+  "locales": {
+   "vi": {
+    "label": "CÁ NHÂN",
+    "nav": [
+     {
+      "label": "Sản phẩm",
+      "panelTitle": "Sản phẩm",
+      "groups": [
+       {
+        "title": "Quỹ Cổ Phiếu",
+        "links": [
+         {
+          "label": "DCDS",
+          "url": "/individual/product/dcds",
+          "openInNewTab": false
+         },
+         {
+          "label": "DCDE",
+          "url": "/individual/product/dcde",
+          "openInNewTab": false
+         }
+        ]
+       },
+       {
+        "title": "Quỹ Cân Bằng",
+        "links": [
+         {
+          "label": "DCBA",
+          "url": "/individual/product/dcba",
+          "openInNewTab": false
+         }
+        ]
+       },
+       {
+        "title": "Quỹ Trái Phiếu",
+        "links": [
+         {
+          "label": "DCIP",
+          "url": "/individual/product/dcip",
+          "openInNewTab": false
+         },
+         {
+          "label": "DCBF",
+          "url": "/individual/product/dcbf",
+          "openInNewTab": false
+         }
+        ]
+       },
+       {
+        "title": "Quỹ ETF",
+        "links": [
+         {
+          "label": "VN30",
+          "url": "/individual/product/vn30",
+          "openInNewTab": false
+         },
+         {
+          "label": "Diamond",
+          "url": "/individual/product/vndiamond",
+          "openInNewTab": false
+         },
+         {
+          "label": "Midcap",
+          "url": "/individual/product/vnmidcap",
+          "openInNewTab": false
+         }
+        ]
+       },
+       {
+        "title": "SẢN PHẨM KHÁC",
+        "links": [
+         {
+          "label": "Ủy thác đầu tư",
+          "url": "/institution/sma",
+          "openInNewTab": false
+         },
+         {
+          "label": "Quỹ hưu trí",
+          "url": "/institution/pension",
+          "openInNewTab": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "label": "Giới thiệu",
+      "url": "/individual/about"
+     },
+     {
+      "label": "Thư Viện",
+      "panelTitle": "Thư Viện",
+      "groups": [
+       {
+        "links": [
+         {
+          "label": "Tin tức",
+          "url": "/individual/news-and-insights",
+          "openInNewTab": false
+         },
+         {
+          "label": "Báo cáo & Tài liệu",
+          "url": "/individual/report",
+          "openInNewTab": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "label": "Hỏi đáp",
+      "url": "/individual/faq"
+     }
+    ],
+    "headerCta": {
+     "label": "Mở tài khoản",
+     "url": "#dragonx",
+     "openInNewTab": false
+    },
+    "footerColumns": [
+     {
+      "title": "Quỹ Cổ Phiếu",
+      "links": [
+       {
+        "label": "DCDS",
+        "url": "/individual/product/dcds",
+        "openInNewTab": false
+       },
+       {
+        "label": "DCDE",
+        "url": "/individual/product/dcde",
+        "openInNewTab": false
+       }
+      ]
+     },
+     {
+      "title": "Quỹ Trái Phiếu",
+      "links": [
+       {
+        "label": "DCIP",
+        "url": "/individual/product/dcip",
+        "openInNewTab": false
+       },
+       {
+        "label": "DCBF",
+        "url": "/individual/product/dcbf",
+        "openInNewTab": false
+       }
+      ]
+     },
+     {
+      "title": "Quỹ ETF",
+      "links": [
+       {
+        "label": "VN30",
+        "url": "/individual/product/vn30",
+        "openInNewTab": false
+       },
+       {
+        "label": "Diamond",
+        "url": "/individual/product/vndiamond",
+        "openInNewTab": false
+       },
+       {
+        "label": "Midcap",
+        "url": "/individual/product/vnmidcap",
+        "openInNewTab": false
+       }
+      ]
+     },
+     {
+      "title": "Giới thiệu",
+      "links": [
+       {
+        "label": "Về chúng tôi",
+        "url": "/individual/about",
+        "openInNewTab": false
+       }
+      ]
+     },
+     {
+      "title": "Hỗ trợ",
+      "links": [
+       {
+        "label": "Tài liệu",
+        "url": "/individual/report",
+        "openInNewTab": false
+       },
+       {
+        "label": "Hỏi đáp",
+        "url": "/individual/faq",
+        "openInNewTab": false
+       },
+       {
+        "label": "Liên hệ",
+        "url": "/individual/contact",
+        "openInNewTab": false
+       }
+      ]
+     }
+    ],
+    "socialLinks": [
+     {
+      "network": "linkedin",
+      "url": "https://www.linkedin.com/company/dragoncapitalvietnam"
+     },
+     {
+      "network": "facebook",
+      "url": "https://www.facebook.com/dragoncapitalvietnam"
+     },
+     {
+      "network": "youtube",
+      "url": "https://www.youtube.com/@dragoncapitalvn"
+     },
+     {
+      "network": "zalo",
+      "url": "https://zalo.me/dragoncapitalvietnam"
+     }
+    ],
+    "appTitle": "Trải nghiệm DragonX",
+    "legalLinks": [
+     {
+      "label": "Điều khoản sử dụng",
+      "url": "/terms",
+      "openInNewTab": false
+     },
+     {
+      "label": "Chính sách bảo mật",
+      "url": "/policy",
+      "openInNewTab": false
+     }
+    ],
+    "copyright": "© 2024 Dragon Capital",
+    "appModal": {
+     "eyebrow": "Tải về",
+     "title": "DragonX",
+     "text": "Bắt đầu hành trình đầu tư ngay!",
+     "qr": {
+      "$media": "content/individual/site/modal-qr.png",
+      "alt": "DragonX QR"
+     },
+     "appStoreUrl": "https://apps.apple.com/vn/app/dragonx-%C4%91%E1%BA%A7u-t%C6%B0-d%E1%BB%85-d%C3%A0ng/id1567847139",
+     "playStoreUrl": "https://play.google.com/store/apps/details?id=com.dcvfm.dragonx",
+     "moreText": "hoặc",
+     "moreLink": {
+      "label": "dragonx.com.vn",
+      "url": "https://dragonx.com.vn/vi/login",
+      "openInNewTab": true
+     }
+    }
+   },
+   "en": {
+    "label": "INDIVIDUALS",
+    "nav": [
+     {
+      "label": "Our Funds",
+      "panelTitle": "Our Funds",
+      "groups": [
+       {
+        "title": "Equity Fund",
+        "links": [
+         {
+          "label": "DCDS",
+          "url": "/individual/product/dcds",
+          "openInNewTab": false
+         },
+         {
+          "label": "DCDE",
+          "url": "/individual/product/dcde",
+          "openInNewTab": false
+         }
+        ]
+       },
+       {
+        "title": "Balance Fund",
+        "links": [
+         {
+          "label": "DCBA",
+          "url": "/individual/product/dcba",
+          "openInNewTab": false
+         }
+        ]
+       },
+       {
+        "title": "Bond Fund",
+        "links": [
+         {
+          "label": "DCIP",
+          "url": "/individual/product/dcip",
+          "openInNewTab": false
+         },
+         {
+          "label": "DCBF",
+          "url": "/individual/product/dcbf",
+          "openInNewTab": false
+         }
+        ]
+       },
+       {
+        "title": "ETF Fund",
+        "links": [
+         {
+          "label": "VN30",
+          "url": "/individual/product/vn30",
+          "openInNewTab": false
+         },
+         {
+          "label": "VNDiamond",
+          "url": "/individual/product/vndiamond",
+          "openInNewTab": false
+         },
+         {
+          "label": "VNMidcap",
+          "url": "/individual/product/vnmidcap",
+          "openInNewTab": false
+         }
+        ]
+       },
+       {
+        "title": "OTHER PRODUCTS",
+        "links": [
+         {
+          "label": "SMA",
+          "url": "/institution/sma",
+          "openInNewTab": false
+         },
+         {
+          "label": "Pension",
+          "url": "/institution/pension",
+          "openInNewTab": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "label": "About Us",
+      "url": "/individual/about"
+     },
+     {
+      "label": "Resources",
+      "panelTitle": "Resources",
+      "groups": [
+       {
+        "links": [
+         {
+          "label": "News & Insight",
+          "url": "/individual/news-and-insights",
+          "openInNewTab": false
+         },
+         {
+          "label": "Reports & Document",
+          "url": "/individual/report",
+          "openInNewTab": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "label": "FAQ",
+      "url": "/individual/faq"
+     }
+    ],
+    "headerCta": {
+     "label": "Get DragonX",
+     "url": "#dragonx",
+     "openInNewTab": false
+    },
+    "footerColumns": [
+     {
+      "title": "Equity Fund",
+      "links": [
+       {
+        "label": "DCDS",
+        "url": "/individual/product/dcds",
+        "openInNewTab": false
+       },
+       {
+        "label": "DCDE",
+        "url": "/individual/product/dcde",
+        "openInNewTab": false
+       }
+      ]
+     },
+     {
+      "title": "Bond Fund",
+      "links": [
+       {
+        "label": "DCIP",
+        "url": "/individual/product/dcip",
+        "openInNewTab": false
+       },
+       {
+        "label": "DCBF",
+        "url": "/individual/product/dcbf",
+        "openInNewTab": false
+       }
+      ]
+     },
+     {
+      "title": "ETF Fund",
+      "links": [
+       {
+        "label": "VN30",
+        "url": "/individual/product/vn30",
+        "openInNewTab": false
+       },
+       {
+        "label": "VNDiamond",
+        "url": "/individual/product/vndiamond",
+        "openInNewTab": false
+       },
+       {
+        "label": "VNMidcap",
+        "url": "/individual/product/vnmidcap",
+        "openInNewTab": false
+       }
+      ]
+     },
+     {
+      "title": "Our Story",
+      "links": [
+       {
+        "label": "About us",
+        "url": "/individual/about",
+        "openInNewTab": false
+       }
+      ]
+     },
+     {
+      "title": "Support",
+      "links": [
+       {
+        "label": "Resources",
+        "url": "/individual/report",
+        "openInNewTab": false
+       },
+       {
+        "label": "FAQ",
+        "url": "/individual/faq",
+        "openInNewTab": false
+       },
+       {
+        "label": "Contact us",
+        "url": "/individual/contact",
+        "openInNewTab": false
+       }
+      ]
+     }
+    ],
+    "socialLinks": [
+     {
+      "network": "linkedin",
+      "url": "https://www.linkedin.com/company/dragoncapitalvietnam"
+     },
+     {
+      "network": "facebook",
+      "url": "https://www.facebook.com/dragoncapitalvietnam"
+     },
+     {
+      "network": "youtube",
+      "url": "https://www.youtube.com/@dragoncapitalvn"
+     },
+     {
+      "network": "zalo",
+      "url": "https://zalo.me/dragoncapitalvietnam"
+     }
+    ],
+    "appTitle": "Get DragonX and Invest Now",
+    "legalLinks": [
+     {
+      "label": "Terms of Use",
+      "url": "/terms",
+      "openInNewTab": false
+     },
+     {
+      "label": "Privacy Policy",
+      "url": "/policy",
+      "openInNewTab": false
+     }
+    ],
+    "copyright": "© 2024 Dragon Capital",
+    "appModal": {
+     "eyebrow": "Download",
+     "title": "DragonX",
+     "text": "To start investing now.",
+     "qr": {
+      "$media": "content/individual/site/modal-qr.png",
+      "alt": "DragonX QR"
+     },
+     "appStoreUrl": "https://apps.apple.com/vn/app/dragonx-%C4%91%E1%BA%A7u-t%C6%B0-d%E1%BB%85-d%C3%A0ng/id1567847139",
+     "playStoreUrl": "https://play.google.com/store/apps/details?id=com.dcvfm.dragonx",
+     "moreText": "or explore more at",
+     "moreLink": {
+      "label": "dragonx.com.vn",
+      "url": "https://dragonx.com.vn/vi/login",
+      "openInNewTab": true
+     }
+    }
+   }
+  }
+ },
+ {
+  "key": "institution",
+  "logo": {
+   "$media": "content/institution/header-logo-brandLogo.png",
+   "alt": "Dragon Capital"
+  },
+  "footerLogo": {
+   "$media": "content/institution/MCKLAEJGPCXRBATIPRNSBABC72SM.png",
+   "alt": "Dragon Capital"
+  },
+  "zaloUrl": "https://zalo.me/dragoncapitalvietnam",
+  "locales": {
+   "vi": {
+    "label": "TỔ CHỨC",
+    "nav": [
+     {
+      "label": "Giải pháp",
+      "panelTitle": "Giải pháp",
+      "groups": [
+       {
+        "title": "Quỹ Hưu Trí",
+        "links": [
+         {
+          "label": "Hưu Trí An Vui",
+          "url": "/institution/pension",
+          "openInNewTab": false
+         },
+         {
+          "label": "Thịnh An",
+          "url": "/institution/product/thinh-an",
+          "openInNewTab": false
+         },
+         {
+          "label": "Phúc An",
+          "url": "/institution/product/phuc-an",
+          "openInNewTab": false
+         }
+        ]
+       },
+       {
+        "title": "Tài Khoản Riêng",
+        "links": [
+         {
+          "label": "Ủy Thác Đầu Tư",
+          "url": "/institution/sma",
+          "openInNewTab": false
+         }
+        ]
+       },
+       {
+        "title": "Quỹ trái phiếu",
+        "links": [
+         {
+          "label": "DCIP",
+          "url": "/institution/product/dcip",
+          "openInNewTab": false
+         }
+        ]
+       },
+       {
+        "title": "Quỹ ETF",
+        "links": [
+         {
+          "label": "VN30",
+          "url": "/institution/product/vn30",
+          "openInNewTab": false
+         },
+         {
+          "label": "Diamond",
+          "url": "/institution/product/vndiamond",
+          "openInNewTab": false
+         },
+         {
+          "label": "Midcap",
+          "url": "/institution/product/vnmidcap",
+          "openInNewTab": false
+         }
+        ]
+       },
+       {
+        "title": "SẢN PHẨM KHÁC",
+        "links": [
+         {
+          "label": "DCBF",
+          "url": "/individual/product/dcbf",
+          "openInNewTab": false
+         },
+         {
+          "label": "DCDS",
+          "url": "/individual/product/dcds",
+          "openInNewTab": false
+         },
+         {
+          "label": "DCDE",
+          "url": "/individual/product/dcde",
+          "openInNewTab": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "label": "Giới thiệu",
+      "url": "/institution/about"
+     },
+     {
+      "label": "Tài liệu",
+      "panelTitle": "Tài liệu",
+      "groups": [
+       {
+        "links": [
+         {
+          "label": "Tin tức",
+          "url": "/institution/news-and-insights",
+          "openInNewTab": false
+         },
+         {
+          "label": "Báo cáo & Tài liệu",
+          "url": "/institution/report",
+          "openInNewTab": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "label": "Hỏi đáp",
+      "url": "/institution/faq"
+     }
+    ],
+    "headerCta": {
+     "label": "Liên hệ",
+     "url": "/institution/contact",
+     "openInNewTab": false
+    },
+    "footerColumns": [
+     {
+      "title": "Quỹ Hưu Trí",
+      "links": [
+       {
+        "label": "Hưu Trí An Vui",
+        "url": "/institution/pension",
+        "openInNewTab": false
+       },
+       {
+        "label": "Thịnh An",
+        "url": "/institution/product/thinh-an",
+        "openInNewTab": false
+       },
+       {
+        "label": "Phúc An",
+        "url": "/institution/product/phuc-an",
+        "openInNewTab": false
+       }
+      ]
+     },
+     {
+      "title": "Tài Khoản Riêng",
+      "links": [
+       {
+        "label": "Ủy Thác Đầu Tư",
+        "url": "/institution/sma",
+        "openInNewTab": false
+       }
+      ]
+     },
+     {
+      "title": "Quỹ trái phiếu",
+      "links": [
+       {
+        "label": "DCIP",
+        "url": "/institution/product/dcip",
+        "openInNewTab": false
+       }
+      ]
+     },
+     {
+      "title": "Quỹ ETF",
+      "links": [
+       {
+        "label": "VN30",
+        "url": "/institution/product/vn30",
+        "openInNewTab": false
+       },
+       {
+        "label": "Diamond",
+        "url": "/institution/product/vndiamond",
+        "openInNewTab": false
+       },
+       {
+        "label": "Midcap",
+        "url": "/institution/product/vnmidcap",
+        "openInNewTab": false
+       }
+      ]
+     },
+     {
+      "title": "Giới thiệu",
+      "links": [
+       {
+        "label": "Về chúng tôi",
+        "url": "/institution/about",
+        "openInNewTab": false
+       }
+      ]
+     },
+     {
+      "title": "Hỗ trợ",
+      "links": [
+       {
+        "label": "Tài liệu",
+        "url": "/institution/report",
+        "openInNewTab": false
+       },
+       {
+        "label": "Hỏi đáp",
+        "url": "/institution/faq",
+        "openInNewTab": false
+       },
+       {
+        "label": "Liên hệ",
+        "url": "/institution/contact",
+        "openInNewTab": false
+       }
+      ]
+     }
+    ],
+    "socialLinks": [
+     {
+      "network": "linkedin",
+      "url": "https://www.linkedin.com/company/dragoncapitalvietnam"
+     },
+     {
+      "network": "facebook",
+      "url": "https://www.facebook.com/dragoncapitalvietnam"
+     },
+     {
+      "network": "youtube",
+      "url": "https://www.youtube.com/@dragoncapitalvn"
+     },
+     {
+      "network": "zalo",
+      "url": "https://zalo.me/dragoncapitalvietnam"
+     }
+    ],
+    "legalLinks": [
+     {
+      "label": "Điều khoản sử dụng",
+      "url": "/terms",
+      "openInNewTab": false
+     },
+     {
+      "label": "Chính sách bảo mật",
+      "url": "/policy",
+      "openInNewTab": false
+     }
+    ],
+    "copyright": "© 2024 Dragon Capital"
+   },
+   "en": {
+    "label": "INSTITUTIONS",
+    "nav": [
+     {
+      "label": "Services",
+      "panelTitle": "Services",
+      "groups": [
+       {
+        "title": "Pension Fund",
+        "links": [
+         {
+          "label": "Program overview",
+          "url": "/institution/pension",
+          "openInNewTab": false
+         },
+         {
+          "label": "Thinh An",
+          "url": "/institution/product/thinh-an",
+          "openInNewTab": false
+         },
+         {
+          "label": "Phuc An",
+          "url": "/institution/product/phuc-an",
+          "openInNewTab": false
+         }
+        ]
+       },
+       {
+        "title": "Customised portfolio",
+        "links": [
+         {
+          "label": "SMA",
+          "url": "/institution/sma",
+          "openInNewTab": false
+         }
+        ]
+       },
+       {
+        "title": "Liquidity investment",
+        "links": [
+         {
+          "label": "DCIP",
+          "url": "/institution/product/dcip",
+          "openInNewTab": false
+         }
+        ]
+       },
+       {
+        "title": "ETF Fund",
+        "links": [
+         {
+          "label": "VN30",
+          "url": "/institution/product/vn30",
+          "openInNewTab": false
+         },
+         {
+          "label": "VNDiamond",
+          "url": "/institution/product/vndiamond",
+          "openInNewTab": false
+         },
+         {
+          "label": "VNMidcap",
+          "url": "/institution/product/vnmidcap",
+          "openInNewTab": false
+         }
+        ]
+       },
+       {
+        "title": "OTHER PRODUCTS",
+        "links": [
+         {
+          "label": "DCBF",
+          "url": "/individual/product/dcbf",
+          "openInNewTab": false
+         },
+         {
+          "label": "DCDS",
+          "url": "/individual/product/dcds",
+          "openInNewTab": false
+         },
+         {
+          "label": "DCDE",
+          "url": "/individual/product/dcde",
+          "openInNewTab": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "label": "About Us",
+      "url": "/institution/about"
+     },
+     {
+      "label": "Resource",
+      "panelTitle": "Resource",
+      "groups": [
+       {
+        "links": [
+         {
+          "label": "News & Insight",
+          "url": "/institution/news-and-insights",
+          "openInNewTab": false
+         },
+         {
+          "label": "Reports & Document",
+          "url": "/institution/report",
+          "openInNewTab": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "label": "FAQ",
+      "url": "/institution/faq"
+     }
+    ],
+    "headerCta": {
+     "label": "Contact us",
+     "url": "/institution/contact",
+     "openInNewTab": false
+    },
+    "footerColumns": [
+     {
+      "title": "Pension Fund",
+      "links": [
+       {
+        "label": "Program overview",
+        "url": "/institution/pension",
+        "openInNewTab": false
+       },
+       {
+        "label": "Thinh An",
+        "url": "/institution/product/thinh-an",
+        "openInNewTab": false
+       },
+       {
+        "label": "Phuc An",
+        "url": "/institution/product/phuc-an",
+        "openInNewTab": false
+       }
+      ]
+     },
+     {
+      "title": "Customised portfolio",
+      "links": [
+       {
+        "label": "SMA",
+        "url": "/institution/sma",
+        "openInNewTab": false
+       }
+      ]
+     },
+     {
+      "title": "Liquidity investment",
+      "links": [
+       {
+        "label": "DCIP",
+        "url": "/institution/product/dcip",
+        "openInNewTab": false
+       }
+      ]
+     },
+     {
+      "title": "ETF Fund",
+      "links": [
+       {
+        "label": "VN30",
+        "url": "/institution/product/vn30",
+        "openInNewTab": false
+       },
+       {
+        "label": "VNDiamond",
+        "url": "/institution/product/vndiamond",
+        "openInNewTab": false
+       },
+       {
+        "label": "VNMidcap",
+        "url": "/institution/product/vnmidcap",
+        "openInNewTab": false
+       }
+      ]
+     },
+     {
+      "title": "Our Story",
+      "links": [
+       {
+        "label": "About us",
+        "url": "/institution/about",
+        "openInNewTab": false
+       }
+      ]
+     },
+     {
+      "title": "Support",
+      "links": [
+       {
+        "label": "Resources",
+        "url": "/institution/report",
+        "openInNewTab": false
+       },
+       {
+        "label": "FAQ",
+        "url": "/institution/faq",
+        "openInNewTab": false
+       },
+       {
+        "label": "Contact us",
+        "url": "/institution/contact",
+        "openInNewTab": false
+       }
+      ]
+     }
+    ],
+    "socialLinks": [
+     {
+      "network": "linkedin",
+      "url": "https://www.linkedin.com/company/dragoncapitalvietnam"
+     },
+     {
+      "network": "facebook",
+      "url": "https://www.facebook.com/dragoncapitalvietnam"
+     },
+     {
+      "network": "youtube",
+      "url": "https://www.youtube.com/@dragoncapitalvn"
+     },
+     {
+      "network": "zalo",
+      "url": "https://zalo.me/dragoncapitalvietnam"
+     }
+    ],
+    "legalLinks": [
+     {
+      "label": "Terms of Use",
+      "url": "/terms",
+      "openInNewTab": false
+     },
+     {
+      "label": "Privacy Policy",
+      "url": "/policy",
+      "openInNewTab": false
+     }
+    ],
+    "copyright": "© 2024 Dragon Capital"
+   }
+  }
+ },
+ {
+  "key": "corporate",
+  "logo": {
+   "$media": "content/corporate/site/brandLogo.png",
+   "alt": "Dragon Capital"
+  },
+  "footerLogo": {
+   "$media": "content/corporate/site/footer-logo-corporate.png",
+   "alt": "Dragon Capital"
+  },
+  "locales": {
+   "vi": {
+    "headerCta": {
+     "label": "Liên hệ",
+     "url": "/contact",
+     "openInNewTab": false
+    },
+    "footerColumns": [
+     {
+      "title": "Khách hàng",
+      "links": [
+       {
+        "label": "Tổ chức",
+        "url": "/institution",
+        "openInNewTab": false
+       },
+       {
+        "label": "Cá nhân",
+        "url": "/individual",
+        "openInNewTab": false
+       }
+      ]
+     },
+     {
+      "title": "Hỗ trợ",
+      "links": [
+       {
+        "label": "Liên hệ",
+        "url": "/contact",
+        "openInNewTab": false
+       }
+      ]
+     }
+    ],
+    "legalLinks": [
+     {
+      "label": "Điều khoản sử dụng",
+      "url": "/terms",
+      "openInNewTab": false
+     },
+     {
+      "label": "Chính sách bảo mật",
+      "url": "/policy",
+      "openInNewTab": false
+     }
+    ],
+    "copyright": "©️ 2024 Dragon Capital"
+   },
+   "en": {
+    "headerCta": {
+     "label": "Contact Us",
+     "url": "/contact",
+     "openInNewTab": false
+    },
+    "footerColumns": [
+     {
+      "title": "Our Sites",
+      "links": [
+       {
+        "label": "Institutions",
+        "url": "/institution",
+        "openInNewTab": false
+       },
+       {
+        "label": "Individuals",
+        "url": "/individual",
+        "openInNewTab": false
+       }
+      ]
+     },
+     {
+      "title": "Support",
+      "links": [
+       {
+        "label": "Contact us",
+        "url": "/contact",
+        "openInNewTab": false
+       }
+      ]
+     }
+    ],
+    "legalLinks": [
+     {
+      "label": "Terms of Use",
+      "url": "/terms",
+      "openInNewTab": false
+     },
+     {
+      "label": "Privacy Policy",
+      "url": "/policy",
+      "openInNewTab": false
+     }
+    ],
+    "copyright": "©️ 2024 Dragon Capital"
+   }
+  }
+ },
+ {
+  "key": "regulatory",
+  "logo": {
+   "$media": "content/corporate/site/brandLogo.png",
+   "alt": "Dragon Capital"
+  },
+  "footerLogo": {
+   "$media": "content/corporate/site/footer-logo-regulatory.png",
+   "alt": "Dragon Capital"
+  },
+  "locales": {
+   "vi": {
+    "label": "Công bố thông tin",
+    "headerCta": {
+     "label": "Liên Hệ",
+     "url": "/contact",
+     "openInNewTab": false
+    },
+    "footerColumns": [
+     {
+      "title": "Khách hàng",
+      "links": [
+       {
+        "label": "Tổ chức",
+        "url": "/institution",
+        "openInNewTab": false
+       },
+       {
+        "label": "Cá nhân",
+        "url": "/individual",
+        "openInNewTab": false
+       }
+      ]
+     },
+     {
+      "title": "Hỗ trợ",
+      "links": [
+       {
+        "label": "Liên hệ",
+        "url": "/contact",
+        "openInNewTab": false
+       },
+       {
+        "label": "Trang Chủ",
+        "url": "/",
+        "openInNewTab": false
+       }
+      ]
+     }
+    ],
+    "legalLinks": [
+     {
+      "label": "Điều khoản sử dụng",
+      "url": "/terms",
+      "openInNewTab": false
+     },
+     {
+      "label": "Chính sách bảo mật",
+      "url": "/policy",
+      "openInNewTab": false
+     }
+    ],
+    "copyright": "©️ 2025 Dragon Capital"
+   },
+   "en": {
+    "label": "Regulatory Disclosure",
+    "headerCta": {
+     "label": "Contact Us",
+     "url": "/contact",
+     "openInNewTab": false
+    },
+    "footerColumns": [
+     {
+      "title": "Our Site",
+      "links": [
+       {
+        "label": "Institutions",
+        "url": "/institution",
+        "openInNewTab": false
+       },
+       {
+        "label": "Individuals",
+        "url": "/individual",
+        "openInNewTab": false
+       }
+      ]
+     },
+     {
+      "title": "Support",
+      "links": [
+       {
+        "label": "Contact us",
+        "url": "/contact",
+        "openInNewTab": false
+       },
+       {
+        "label": "Home Page",
+        "url": "/",
+        "openInNewTab": false
+       }
+      ]
+     }
+    ],
+    "legalLinks": [
+     {
+      "label": "Terms of Use",
+      "url": "/terms",
+      "openInNewTab": false
+     },
+     {
+      "label": "Privacy Policy",
+      "url": "/policy",
+      "openInNewTab": false
+     }
+    ],
+    "copyright": "©️ 2025 Dragon Capital"
+   }
+  }
+ }
+]

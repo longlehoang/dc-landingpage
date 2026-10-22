@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_blocks_milestones",
+  "info": {
+    "displayName": "Milestone",
+    "icon": "layout",
+    "description": "One timeline entry"
+  },
+  "options": {},
+  "attributes": {
+    "year": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "document_taxonomies",
+  "info": {
+    "singularName": "document-taxonomy",
+    "pluralName": "document-taxonomies",
+    "displayName": "Document taxonomy",
+    "description": "Labels for document funds, types, categories and the library UI"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "labels": {
+      "type": "json",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

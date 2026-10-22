@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_blocks_video_carousels",
+  "info": {
+    "displayName": "Video carousel",
+    "icon": "layout",
+    "description": "Slides of video + text"
+  },
+  "options": {},
+  "attributes": {
+    "anchor": {
+      "type": "string"
+    },
+    "slides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.video-slide"
+    }
+  }
+}

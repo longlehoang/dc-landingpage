@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_blocks_icon_items",
+  "info": {
+    "displayName": "Icon item",
+    "icon": "layout",
+    "description": "Icon with a short statement"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

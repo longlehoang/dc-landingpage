@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_blocks_faq_groups",
+  "info": {
+    "displayName": "FAQ group",
+    "icon": "layout",
+    "description": "Category of questions"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.faq-item"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_blocks_fund_cards",
+  "info": {
+    "displayName": "Fund card",
+    "icon": "layout",
+    "description": "Reference to a fund by slug, with optional overrides"
+  },
+  "options": {},
+  "attributes": {
+    "fundSlug": {
+      "type": "string",
+      "required": true
+    },
+    "tag": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "returnPeriod": {
+      "type": "enumeration",
+      "enum": [
+        "1M",
+        "3M",
+        "ytd",
+        "1Y",
+        "3Y",
+        "5Y",
+        "12M"
+      ]
+    }
+  }
+}

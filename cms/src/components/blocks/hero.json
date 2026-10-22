@@ -1,0 +1,83 @@
+{
+  "collectionName": "components_blocks_heros",
+  "info": {
+    "displayName": "Hero",
+    "icon": "layout",
+    "description": "Top banner of a page"
+  },
+  "options": {},
+  "attributes": {
+    "anchor": {
+      "type": "string"
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "banner",
+        "pageTitle",
+        "pageTitleLight",
+        "plain",
+        "carousel"
+      ],
+      "default": "banner"
+    },
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "titleParts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.headline-part"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "mobileImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "animation": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "mobileAnimation": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    },
+    "contacts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.contact-item"
+    },
+    "slides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.hero-slide"
+    }
+  }
+}

@@ -1,0 +1,220 @@
+{
+ "locales": {
+  "vi": {
+   "labels": {
+    "funds": [
+     {
+      "value": "VF1",
+      "label": "DCDS"
+     },
+     {
+      "value": "PA01",
+      "label": "Phúc An"
+     },
+     {
+      "value": "VFB",
+      "label": "DCBF"
+     },
+     {
+      "value": "VFC",
+      "label": "DCIP"
+     },
+     {
+      "value": "VF4",
+      "label": "DCDE"
+     },
+     {
+      "value": "PENSION",
+      "label": "Quỹ Hưu Trí"
+     },
+     {
+      "value": "TA1",
+      "label": "Thịnh An"
+     },
+     {
+      "value": "VFMVN30",
+      "label": "VN30"
+     },
+     {
+      "value": "VFMVND",
+      "label": "Diamond"
+     },
+     {
+      "value": "VFMMID",
+      "label": "Midcap"
+     },
+     {
+      "value": "VEI",
+      "label": "VFMVSF"
+     },
+     {
+      "value": "DCVFM",
+      "label": "DCVFM Quan hệ cổ đông"
+     },
+     {
+      "value": "DCBA",
+      "label": "DCBA"
+     },
+     {
+      "value": "OTHERS",
+      "label": "DCVFM và Thông tin khác"
+     }
+    ],
+    "types": {
+     "FUND_DISCLOSURE": "Công bố thông tin quỹ",
+     "FMC_DISCLOSURE": "Công bố thông tin công ty quản lý quỹ",
+     "OTHERS": "Khác",
+     "FUND_INFORMATION_AND_GUIDELINES": "Thông tin chung",
+     "FUND_PERFORMANCE": "Kết quả hoạt động",
+     "COMPANY_ANNOUNCEMENT": "Thông báo Công ty"
+    },
+    "categories": {
+     "AUDITED_REPORT": "Báo Cáo Kiểm Toán",
+     "FACTSHEET": "Factsheet",
+     "FINANCIAL_REPORTS": "Báo cáo tài chính",
+     "FMC_REPORT": "Báo cáo công ty Quản Lý Quỹ",
+     "INVESTOR_GUIDEBOOK": "Cẩm nang nhà đầu tư",
+     "LICENSE_PROSPECTUS_AND_CHARTER": "Giấy phép, Bản cáo bạch và Điều lệ",
+     "NEWS_AND_ANNOUNCEMENT": "Tin tức và sự kiện",
+     "OTHERS": "Tài liệu khác",
+     "PERIODICAL_REPORT": "Báo cáo định kỳ",
+     "TRADING_GUIDELINES": "Hướng dẫn giao dịch",
+     "BOARD_OF_REPRESENTATIVES": "Ban đại diện Quỹ",
+     "CREATION_BASKET": "Danh mục chứng khoán cơ cấu",
+     "DAILY_AND_WEEKLY_NAV_REPORTS": "Báo cáo NAV Ngày/ Tuần",
+     "INSIDERS": "Người nội bộ",
+     "INVESTORS_GENERAL_MEETINGS": "Đại hội Nhà đầu tư",
+     "OTHER_DISCLOSURES": "Công bố thông tin khác",
+     "TRACKING_ERROR": "Chỉ số sai lệch",
+     "BOARD_OF_DIRECTORS": "Hội đồng quản trị",
+     "EXTRAORDINARY_DISCLOSURES_AND_OTHER": "Công bố bất thường và thông tin khác",
+     "GENERAL_MEETING_OF_SHAREHODERS": "Đại hội đồng cổ đông",
+     "LICENSES_AND_CHARTER": "Giấy phép và Điều lệ",
+     "REGULATIONS": "Quy chế công ty"
+    },
+    "ui": {
+     "fund": "Tên quỹ",
+     "type": "Loại tài liệu",
+     "year": "Năm",
+     "allTypes": "Loại tài liệu: Tất cả",
+     "columns": [
+      "Tài liệu",
+      "Quỹ",
+      "Loại tài liệu",
+      "Năm"
+     ],
+     "empty": "Không tìm thấy tài liệu nào",
+     "noMatch": "Không có kết quả phù hợp"
+    }
+   }
+  },
+  "en": {
+   "labels": {
+    "funds": [
+     {
+      "value": "VF1",
+      "label": "DCDS"
+     },
+     {
+      "value": "PA01",
+      "label": "Phuc An"
+     },
+     {
+      "value": "VFB",
+      "label": "DCBF"
+     },
+     {
+      "value": "VFC",
+      "label": "DCIP"
+     },
+     {
+      "value": "VF4",
+      "label": "DCDE"
+     },
+     {
+      "value": "PENSION",
+      "label": "Pension"
+     },
+     {
+      "value": "TA1",
+      "label": "Thinh An"
+     },
+     {
+      "value": "VFMVN30",
+      "label": "VN30"
+     },
+     {
+      "value": "VFMVND",
+      "label": "VNDiamond"
+     },
+     {
+      "value": "VFMMID",
+      "label": "VNMidcap"
+     },
+     {
+      "value": "VEI",
+      "label": "VFMVSF"
+     },
+     {
+      "value": "DCVFM",
+      "label": "DCVFM - Shareholder relations"
+     },
+     {
+      "value": "DCBA",
+      "label": "DCBA"
+     },
+     {
+      "value": "OTHERS",
+      "label": "Others"
+     }
+    ],
+    "types": {
+     "FUND_DISCLOSURE": "Fund Disclosure",
+     "FMC_DISCLOSURE": "FMC Disclosure",
+     "OTHERS": "Others",
+     "FUND_INFORMATION_AND_GUIDELINES": "Fund Information & Guidelines",
+     "FUND_PERFORMANCE": "Fund Performance",
+     "COMPANY_ANNOUNCEMENT": "Company Announcement"
+    },
+    "categories": {
+     "AUDITED_REPORT": "Audited Financial Report",
+     "FACTSHEET": "Factsheet",
+     "FINANCIAL_REPORTS": "Financial Reports",
+     "FMC_REPORT": "FMC Report",
+     "INVESTOR_GUIDEBOOK": "Investor Guidebook",
+     "LICENSE_PROSPECTUS_AND_CHARTER": "License, Prospectus & Charter",
+     "NEWS_AND_ANNOUNCEMENT": "News and Announcement",
+     "OTHERS": "Others",
+     "PERIODICAL_REPORT": "Periodical Reports",
+     "TRADING_GUIDELINES": "Trading Guidelines",
+     "BOARD_OF_REPRESENTATIVES": "Board of Representatives",
+     "CREATION_BASKET": "Creation Basket",
+     "DAILY_AND_WEEKLY_NAV_REPORTS": "Daily and Weekly NAV Reports",
+     "INSIDERS": "Insiders",
+     "INVESTORS_GENERAL_MEETINGS": "Investors' General Meetings",
+     "OTHER_DISCLOSURES": "Other disclosures",
+     "TRACKING_ERROR": "Tracking Error",
+     "BOARD_OF_DIRECTORS": "Board of Directors",
+     "EXTRAORDINARY_DISCLOSURES_AND_OTHER": "Extraordinary disclosures and others",
+     "GENERAL_MEETING_OF_SHAREHODERS": "General Meeting of Shareholders",
+     "LICENSES_AND_CHARTER": "Licenses and Charter",
+     "REGULATIONS": "Regulations"
+    },
+    "ui": {
+     "fund": "Fund name",
+     "type": "Document type",
+     "year": "Year",
+     "allTypes": "Document type: All",
+     "columns": [
+      "Documents",
+      "Fund",
+      "Type",
+      "Year"
+     ],
+     "empty": "No documents found",
+     "noMatch": "No matched result"
+    }
+   }
+  }
+ }
+}

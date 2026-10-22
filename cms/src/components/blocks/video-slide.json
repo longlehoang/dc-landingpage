@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_blocks_video_slides",
+  "info": {
+    "displayName": "Video slide",
+    "icon": "layout",
+    "description": "Embedded video with text"
+  },
+  "options": {},
+  "attributes": {
+    "videoUrl": {
+      "type": "string",
+      "required": true
+    },
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

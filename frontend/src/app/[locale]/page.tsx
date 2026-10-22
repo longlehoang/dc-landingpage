@@ -5,6 +5,7 @@ import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import JourneyCard from '@/components/JourneyCard'
 import Reveal from '@/components/Reveal'
+import SmartLink from '@/components/SmartLink'
 import { About, Hero, WhyUs } from '@/components/sections'
 import { hasLocale, ui } from '@/lib/i18n'
 import { getGlobal, getHomepage, mediaUrl } from '@/lib/strapi'
@@ -55,13 +56,18 @@ export default async function HomePage({ params }: PageProps<'/[locale]'>) {
             <ContactForm
               locale={locale}
               ui={t}
+              sourcePage="/"
               nameLabel={page.contactNameLabel ?? 'Name'}
               emailLabel={page.contactEmailLabel ?? 'Email'}
               messageLabel={page.contactMessageLabel ?? 'Message'}
               optInLabel={page.contactOptInLabel}
               submitLabel={page.contactSubmitLabel ?? 'Submit'}
-              consent={page.contactConsent}
-              policyLink={page.contactPolicyLink}
+              consent={page.contactConsent && (
+                <p className="contact__consent">
+                  {page.contactConsent}{' '}
+                  {page.contactPolicyLink && <SmartLink link={page.contactPolicyLink} />}.*
+                </p>
+              )}
               successMessage={page.contactSuccessMessage ?? '✓'}
             />
           </div>

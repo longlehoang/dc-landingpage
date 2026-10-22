@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blocks_document_librarys",
+  "info": {
+    "displayName": "Document library",
+    "icon": "layout",
+    "description": "Filterable fund documents (Fund document collection)"
+  },
+  "options": {},
+  "attributes": {
+    "anchor": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "defaultFund": {
+      "type": "string"
+    },
+    "funds": {
+      "type": "json"
+    }
+  }
+}

@@ -3,7 +3,7 @@
 import { useEffect, useRef } from 'react'
 
 /** Plays the hero Lottie animation (uploaded to Strapi) once, or shows its last frame for reduced motion. */
-export default function HeroAnimation({ src }: { src: string }) {
+export default function HeroAnimation({ src, className = 'hero__animation' }: { src: string; className?: string }) {
   const ref = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -31,5 +31,5 @@ export default function HeroAnimation({ src }: { src: string }) {
     }
   }, [src])
 
-  return <div ref={ref} className="hero__animation" aria-hidden="true" />
+  return <div ref={ref} className={className} aria-hidden="true" />
 }

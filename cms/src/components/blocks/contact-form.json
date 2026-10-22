@@ -1,0 +1,71 @@
+{
+  "collectionName": "components_blocks_contact_forms",
+  "info": {
+    "displayName": "Contact form",
+    "icon": "layout",
+    "description": "Lead form stored as a Contact submission"
+  },
+  "options": {},
+  "attributes": {
+    "anchor": {
+      "type": "string"
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "panel",
+        "centered"
+      ],
+      "default": "panel"
+    },
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "imagePosition": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ],
+      "default": "left"
+    },
+    "nameLabel": {
+      "type": "string"
+    },
+    "companyLabel": {
+      "type": "string"
+    },
+    "emailLabel": {
+      "type": "string"
+    },
+    "phoneLabel": {
+      "type": "string"
+    },
+    "messageLabel": {
+      "type": "string"
+    },
+    "optInLabel": {
+      "type": "text"
+    },
+    "submitLabel": {
+      "type": "string"
+    },
+    "disclaimer": {
+      "type": "richtext"
+    },
+    "successMessage": {
+      "type": "text"
+    }
+  }
+}

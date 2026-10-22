@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blocks_anchor_navs",
+  "info": {
+    "displayName": "Anchor nav",
+    "icon": "layout",
+    "description": "Sticky in-page tabs that scroll to anchors"
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    }
+  }
+}

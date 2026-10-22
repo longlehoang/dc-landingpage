@@ -28,6 +28,8 @@ scripts/      npm-portable.cmd – runs npm with the portable Node 22 (Node isn'
 
 Node 20–26 is supported (`cms/package.json`).
 
+The quickest way is the Makefile: `make dev` installs dependencies, seeds any missing content and starts both servers (Ctrl-C stops both). `make` lists the other targets (`seed-force`, `stop`, `reset`, `check`, `build`, `start`…). The steps below do the same thing by hand.
+
 ```bash
 # 1. Install dependencies
 npm --prefix cms ci
